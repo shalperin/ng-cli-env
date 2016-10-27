@@ -5,6 +5,8 @@
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",
+    "start-local" : "ng serve --env=local",
+    "start-prod" : "ng serve --env=prod",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
